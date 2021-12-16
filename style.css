@@ -1,4 +1,98 @@
-h1 {
-    color: blue;
+body {
+    background-color: #faf6f6;
+  }
+  h1 {
+    display: inline;
+  }
+  h2 {
     text-align: center;
-}
+  }
+  h3 {
+    margin-top: -22px;
+  }
+  hr {
+    border-top: 3px solid #d8c5c5;
+  }
+  ul {
+    list-style-type: none;
+    padding: 3px;
+  }
+  li {
+    padding: 8px;
+  }
+  button {
+    background-color: #b43042;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 70%);
+    color: white;
+    display: block;
+    font-weight: bold;
+    margin: 30px 5px 20px 572px;
+    padding: 30px;
+  }
+  button:hover {
+    border: 2px solid #be3922;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  aside {
+    float: right;
+    width: 30%;
+  }
+  .all-header {
+    background: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/020/263/original/bg_divider_001.png?1635752103")
+      100% no-repeat;
+    height: 30vh;
+    margin: 100px 0px 0px 0px;
+    width: 100%;
+  }
+  .image-on-background {
+    border-radius: 50%;
+    height: 30vh;
+    width: 30vh;
+  }
+  .Contains-photo {
+    padding-left: 20%;
+  }
+  .contains-header {
+    vertical-align: 100px;
+    padding-left: 80px;
+  }
+  .text-paragraph {
+    text-align: justify;
+    margin: 70px 380px 70px 380px;
+    line-height: 1.5;
+  }
+  .hormoz-location {
+    color: #c36f60;
+  }
+  .rainbow-mountain {
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 70%);
+    margin: 30px 15px 20px 45px;
+    width: 850px;
+  }
+  .attractions-name {
+    font-size: 13px;
+    font-weight: 700;
+    margin-left: 60px;
+  }
+  .small-images {
+    border-radius: 8px;
+    box-shadow: 3px 3px 10px -5px rgba(0, 0, 0, 70%);
+    height: 85px;
+    width: 150px;
+    margin-left: 60px;
+  }
+  .small-images:hover {
+    border: 2px solid #be3922;
+    cursor: pointer;
+    opacity: 0.7;
+  }
+  .coded-by {
+    color: #be3922;
+    font-size: 15px;
+    opacity: 0.7;
+    text-align: center;
+  }
